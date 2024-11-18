@@ -27,7 +27,7 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-    app: flask
+    app: flask-pv
   ports:
     - protocol: TCP
       port: 5500

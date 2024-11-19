@@ -17,6 +17,9 @@ data:
         location /Brazil {
           return 200 "Bad at football";
         }
+        location /myApp {
+          proxy_pass http://flask-service:5500;
+        }
       }
     }
 ---

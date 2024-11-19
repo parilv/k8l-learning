@@ -18,7 +18,7 @@ data:
           return 200 "Bad at football";
         }
         location /myApp {
-          retutn 200 "here at my app";
+          return 200 "here at my app";
         }
       }
     }

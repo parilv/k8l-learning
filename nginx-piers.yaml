@@ -9,7 +9,7 @@ data:
       server {
         listen 80;
         location / {
-          return 200 "Default page"
+          return 200 "Default page";
         }
         location /hello {
           return 200 "Hello World - from outerspace";
